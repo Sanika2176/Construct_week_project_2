@@ -72,13 +72,13 @@ it('should perform the complete workflow', () => {
     homePage.EnterURL();
     homePage.VerifyLogoVisibility();
     homePage.GoToRegisterPage();
-    registerPage.EnterFirstName('robin');
+    registerPage.EnterFirstName('Sanika');
     // ... additional registration steps
 
     // Logout & Login
     logoutPage.Logout();
     homePage.GoToLoginPage();
-    loginPage.EnterEmail('robin25june.com');
+    loginPage.EnterEmail('rholesanika2@gmail.com');
     // ... login steps
 
     // Shopping & Checkout
@@ -90,14 +90,14 @@ it('should perform the complete workflow', () => {
 it('Affiliate Page', () => {
     // Login
     homePage.EnterURL();
-    loginPage.EnterEmail('robin25june.com');
+    loginPage.EnterEmail('holesanika2@gmail.com.com');
     // ... login steps
 
     // Affiliate Registration
     affiliatePage.clickOnAffiliate();
     affiliatePage.FillAffiliateForm({
-        company: 'robin Inc.',
-        website: 'www.robin.com',
+        company: 'sanika Inc.',
+        website: 'https://tutorialsninja.com/demo',
         // ... additional form details
     });
     affiliatePage.VerifyAffiliateSuccess();
@@ -109,10 +109,10 @@ npm (Node Package Manager)
 Installation
 Clone the repository:
 
-git clone https://github.com/robin-test-coder/Construct_Week_Unit3_Project.git
+git clone https://github.com/Sanika2176/Construct_week_project_2
 Navigate to project directory:
 
-cd Construct_Week_Unit3_Project
+cd Construct_Week_Project_2
 Install dependencies:
 
 npm install
